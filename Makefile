@@ -15,6 +15,16 @@ cv:
 	biber cv
 	xelatex cv
 
+# create all
+all:
+	xelatex resume
+	biber resume
+	xelatex resume
+	xelatex cv
+	biber cv
+	xelatex cv
+
+
 # clean
 clean:
 	rm -rf resume.log resume.out resume.aux resume.blg resume.bbl resume.bcf resume.run.xml resume.pdf
