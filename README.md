@@ -4,7 +4,7 @@ This is the source code for my resume. It uses `LaTeX` and the `friggeri-cv` tem
 
 # Build
 
-You will need `xelatex` and `biber` to build this document from source. Once you have the required packages installed, you can use Make to build the documents.
+You will need `xelatex` and `biber` to build this document from source. Once you have the required packages installed, you can use Make to build the documents. On the Mac, I installed MacTex first and that took care of all the dependencies.
 
 To build the shorter, resume version:
 
