@@ -20,3 +20,17 @@ To build the longer, curriculum vitae version:
 ```
 $ make cv
 ```
+
+To build both:
+
+```
+$ make all
+```
+
+Don't forget to clean up after (move the pdf's as needed):
+
+```
+$ make clean
+```
+
+
